@@ -1,27 +1,34 @@
-# Contributing to Mergington High School
+# Contributing to the Mergington High Extra-Curricular Activities Website
 
-Thank you for contributing to the Mergington High School extracurricular activities website!
+Thank you for your interest in helping improve our school's website!
+Whether you want to add your club's activities, fix a bug, or suggest
+new features, this guide will help you get started. 🎉
+## Development Setup
 
-## How to Contribute
+1. Clone the repository to your computer.
+2. Install Python requirements: `pip install -r requirements.txt`.
+3. Run the development server: `python src/app.py`.
+4. Visit http://localhost:8000 in your browser to see the website.
+
+## Making Changes
 
 1. Create a new branch for your changes.
-2. Make your changes in the new branch.
-3. Test your changes before submitting them.
-4. Commit your changes with a clear commit message.
-5. Open a Pull Request.
-6. Request a review from the appropriate collaborator.
-7. Address any review feedback.
-8. Merge the Pull Request after approval.
+   - Use descriptive names like `art-gallery-feature` or `fix-chess-signup`
+2. Make your changes and test them locally with sample student data.
+   - Use the MongoDB extension to preview the included sample date.
+3. Push your branch and create a pull request.
+4. Wait for review and address any feedback.
 
-## Collaboration Guidelines
+## Code Style
 
-* Be respectful and helpful to other contributors.
-* Keep Pull Requests focused and easy to review.
-* Explain what your changes do.
-* Test changes before opening a Pull Request.
-* Never commit passwords, API keys, or other secrets.
-* Do not make direct changes to protected branches.
+- Follow PEP 8 for Python code (backend).
+- Use clear, descriptive variable names (student_name, start_time, etc.)
+- Add comments to describe blocks of logic.
+  ## Need help or have ideas?
 
-## Reporting Problems
-
-If you find a bug or have an improvement suggestion, open a GitHub Issue and clearly describe the problem or proposed change.
+- Check the open issues first.
+  - If your problem is there, add a comment or up-vote.
+  - If not there, create a new issue. Be as descriptive as possible.
+- Ask in our weekly IT Club office hours (Thursdays at lunch in Room 203).
+- For other general problems, email the tech team at techclub@mergingtonhigh.example.edu
+  
